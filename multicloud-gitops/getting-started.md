@@ -49,7 +49,7 @@ service](https://console.redhat.com/openshift/create).
   You do not want to push personal credentials to GitHub.
 
    ```sh
-   cp values-secret.yaml.template ~/values-secret.yaml
+   cp common/examples/values-secret.yaml ~/values-secret.yaml
    vi ~/values-secret.yaml
    ```
 
